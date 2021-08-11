@@ -1,0 +1,49 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: lightblue;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline;
+}
+
+.friends_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.friend {
+  max-width: 200px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.friend img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+}
+
+.main_content {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+}
+
+.main_content img {
+  width: 100%;
+}
