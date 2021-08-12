@@ -5,15 +5,37 @@ html {
 body {
   background: lightblue;
 }
+.cast_img {
+  display: flex;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+/* Navigation Bar Styling  */
+
 nav ul {
-  list-style-type: none;
+  text-align: center;
   margin: 0px;
-  padding: 0px;
+  padding-bottom: 30px;
+}
+
+nav a:link{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+nav a:visited{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
 }
 
 nav li {
   display: inline;
 }
+
+
+/* Friends section  */
 
 .friends_section {
   display: flex;
@@ -32,6 +54,9 @@ nav li {
   height: auto;
 }
 
+
+/* Main content */
+
 main {
   display: flex;
 }
@@ -46,4 +71,7 @@ aside {
 
 .main_content img {
   width: 100%;
+}
+footer {
+  text-align: center;
 }
